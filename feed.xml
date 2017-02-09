@@ -1,14 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.acgdraw.com/http://lab.acgdraw.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://www.acgdraw.com/http://lab.acgdraw.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.acgdraw.com/http://lab.acgdraw.com/" rel="alternate" type="text/html" /><updated>2017-02-09T23:11:41+08:00</updated><id>http://www.acgdraw.com/http://lab.acgdraw.com//</id><title type="html">萌绘安全应急响应与开发中心</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://www.acgdraw.com/http://lab.acgdraw.com/jekyll/update/2017/02/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-02-09T23:01:19+08:00</published><updated>2017-02-09T23:01:19+08:00</updated><id>http://www.acgdraw.com/http://lab.acgdraw.com/jekyll/update/2017/02/09/welcome-to-jekyll</id><content type="html" xml:base="http://www.acgdraw.com/http://lab.acgdraw.com/jekyll/update/2017/02/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://www.acgdraw.com/http://lab.acgdraw.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://www.acgdraw.com/http://lab.acgdraw.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.acgdraw.com/http://lab.acgdraw.com/" rel="alternate" type="text/html" /><updated>2017-02-09T23:18:34+08:00</updated><id>http://www.acgdraw.com/http://lab.acgdraw.com//</id><title type="html">萌绘安全应急响应与开发中心</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Changelog</title><link href="http://www.acgdraw.com/http://lab.acgdraw.com/2017/02/09/CHANGELOG.html" rel="alternate" type="text/html" title="Changelog" /><published>2017-02-09T00:00:00+08:00</published><updated>2017-02-09T00:00:00+08:00</updated><id>http://www.acgdraw.com/http://lab.acgdraw.com/2017/02/09/CHANGELOG</id><content type="html" xml:base="http://www.acgdraw.com/http://lab.acgdraw.com/2017/02/09/CHANGELOG.html">&lt;h1 id=&quot;更新日志&quot;&gt;更新日志&lt;/h1&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;016-释出&quot;&gt;0.1.6 释出&lt;/h2&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更新日期&lt;/strong&gt;: 2017 年 2 月 8 日&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;[修] 在首页屏蔽转发稿件和用户自行删除的电波&lt;br /&gt;
+[改] 首页最近动态添加跳转链接可跳转至电波详情页&lt;br /&gt;
+[修] 修复新投稿后电波系统没有该稿件配图的问题&lt;br /&gt;
+[改] 在首页添加我的作品按钮&lt;br /&gt;
+[修] 修复电波系统一些地方图片被拉伸的问题&lt;br /&gt;
+[修] 修复稿件排序不按照投稿时间排序的问题&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;h2 id=&quot;015-释出&quot;&gt;0.1.5 释出&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;更新日期&lt;/strong&gt;: 2017 年 2 月 7 日&lt;/p&gt;
+
+&lt;p&gt;[修] 修复粉丝页面白屏问题&lt;br /&gt;
+[修] 修复搜索单个字的时候返回全部稿件的问题&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;014-释出&quot;&gt;0.1.4 释出&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;更新日期&lt;/strong&gt;: 2017 年 2 月 6 日&lt;/p&gt;
+
+&lt;p&gt;[安] 修复部分安全问题以及程序优化&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;013-释出&quot;&gt;0.1.3 释出&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;更新日期&lt;/strong&gt;: 2017 年 2 月 5 日&lt;/p&gt;
+
+&lt;p&gt;[修] 修复首页没有更多稿件时点击一直转圈&lt;br /&gt;
+[修] 修复首页最近动态输出顺序颠倒&lt;br /&gt;
+[修] 修复电波系统图片显示不稳定的问题&lt;br /&gt;
+[改] 取消 Javascript 模版字符串以兼容低版本浏览器&lt;br /&gt;
+[修] 修复排行榜序号和样式错乱问题&lt;br /&gt;
+[更] 贴幕系统更新至 &lt;a href=&quot;http://www.acgdraw.com/js/acgdraw/tiemu.changelog.txt&quot;&gt;1.0.2017.0205&lt;/a&gt;&lt;br /&gt;
+[改] 个人资料中地区必须选择 3 项改成选 2 项&lt;br /&gt;
+[修] 修复昵称注册后无法插入部分字符的问题&lt;br /&gt;
+[修] 修复部分页面打开显示登录超时的问题&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;012-释出&quot;&gt;0.1.2 释出&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;更新日期&lt;/strong&gt;: 2017 年 2 月 4 日&lt;/p&gt;
+
+&lt;p&gt;[改] 缩短首页稿件列表缓存时间，防止新投稿稿件长时间不显示&lt;br /&gt;
+[修] 修复我的作品、搜索、分区标题过长溢出&lt;br /&gt;
+[修] 修复首页点击更多稿件无限加载&lt;br /&gt;
+[改] 稿件和个人空间从当前打开改从新窗口打开&lt;br /&gt;
+[修] 修复访问电波系统直接跳转登录界面问题&lt;br /&gt;
+[修] 调整搜索页面搜索按钮不对其&lt;br /&gt;
+[修] 修复电波系统登录和注册链接跳转错误&lt;br /&gt;
+[修] 修复搜索系统可以搜索到未审核稿件&lt;br /&gt;
+[修] 修复找回密码无法使用的问题&lt;br /&gt;
+[修] 修复首页最近动态会显示已删除电波的问题&lt;br /&gt;
+[更] 贴幕系统更新至 &lt;a href=&quot;http://www.acgdraw.com/js/acgdraw/tiemu.changelog.txt&quot;&gt;1.0.2017.0204&lt;/a&gt;&lt;br /&gt;
+[改] 将我的作品、搜索、分区中稿件标题和信息改成局左对齐&lt;br /&gt;
+[改] 屏蔽尚未开发的稿件预约功能&lt;br /&gt;
+[改] 将页面右上角快速登录收起从点击登录框外改成点击导航区域外&lt;br /&gt;
+[修] 修复搜索系统部分搜索选项报错的问题&lt;br /&gt;
+[修] 修复首页点击更多稿件提示了没有更多稿件但是仍然继续加载的问题&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;011-释出&quot;&gt;0.1.1 释出&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;更新日期&lt;/strong&gt;: 2017 年 2 月 3 日&lt;/p&gt;
+
+&lt;p&gt;[改] 注册完毕直接跳转登录页面&lt;br /&gt;
+[改] 投稿成功后自动跳转我的作品&lt;br /&gt;
+[修] 修复首页稿件名太长会把用户名挤下去的问题&lt;br /&gt;
+[修] 修复个人空间背景上传，整个页面纯白问题&lt;br /&gt;
+[安] 修复部分安全漏洞&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;01-released&quot;&gt;0.1 Released&lt;/h2&gt;
+
+&lt;p&gt;First version released!&lt;/p&gt;</content><summary type="html">更新日志</summary></entry></feed>
