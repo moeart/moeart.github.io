@@ -8,13 +8,11 @@ https://github.com/moeart/xwaf-docker
 https://github.com/moeart/thinksns-v4-api
 ```
 
-
-
-
 ---
 layout: post
 title: 萌绘开发更新日志
 ---
+
 # 更新日志
 
 ## 0.1.9 释出
@@ -25,6 +23,7 @@ title: 萌绘开发更新日志
 [修] 修复首页作品加载无限卡在第一页的问题<br/>
 [修] 首页最新电波会在火狐浏览器中溢出问题<br/>
 [改] 首页底部比例修改<br/>
+[修] 贴幕在火狐浏览器中靠近边缘时会折行<br/>
 
 
 ## 0.1.8 释出
@@ -83,7 +82,7 @@ title: 萌绘开发更新日志
 [修] 修复电波系统图片显示不稳定的问题<br/>
 [改] 取消 Javascript 模版字符串以兼容低版本浏览器<br/>
 [修] 修复排行榜序号和样式错乱问题<br/>
-[更] 贴幕系统更新至 [1.0.2017.0205](http://www.acgdraw.com/js/acgdraw/tiemu.changelog.txt)<br/>
+[更] 贴幕系统更新至 [1.0.2017.0205](http://www.acgdraw.com/ms/acgdraw/tiemu.changelog.txt)<br/>
 [改] 个人资料中地区必须选择 3 项改成选 2 项<br/>
 [修] 修复昵称注册后无法插入部分字符的问题<br/>
 [修] 修复部分页面打开显示登录超时的问题<br/>
@@ -103,7 +102,7 @@ title: 萌绘开发更新日志
 [修] 修复搜索系统可以搜索到未审核稿件<br/>
 [修] 修复找回密码无法使用的问题<br/>
 [修] 修复首页最近动态会显示已删除电波的问题<br/>
-[更] 贴幕系统更新至 [1.0.2017.0204](http://www.acgdraw.com/js/acgdraw/tiemu.changelog.txt)<br/>
+[更] 贴幕系统更新至 [1.0.2017.0204](http://www.acgdraw.com/ms/acgdraw/tiemu.changelog.txt)<br/>
 [改] 将我的作品、搜索、分区中稿件标题和信息改成局左对齐<br/>
 [改] 屏蔽尚未开发的稿件预约功能<br/>
 [改] 将页面右上角快速登录收起从点击登录框外改成点击导航区域外<br/>
